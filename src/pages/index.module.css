@@ -8,6 +8,7 @@
     align-items: center;
 }
 
+
 .banner {
     width: 100%;
     padding: 2rem;
@@ -15,6 +16,22 @@
     background-color: var(--colour-secondary);
     box-sizing: border-box;
     position: relative;
+}
+
+.banner-contents {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title-text {
+    font-family: var(--font-family-titles);
+    text-transform: uppercase;
+}
+
+
+img.text-only {
+    height: 3em;
 }
 
 img.robot-and-city {
