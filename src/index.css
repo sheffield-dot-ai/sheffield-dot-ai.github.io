@@ -38,19 +38,22 @@
   --colour-background: #eeeeee;
   --colour-background-inset: #fff;
   
-  --colour-primary-lighter: #58C0FC;
+  --colour-primary-lighter: #064DB2;
   --colour-primary-darker: #006BA5;
 
   --colour-text: #213547;
   --colour-text-on-dark-background: #ffffff;
+  --colour-text-on-coloured-background: #333;
 
   --colour-control-bg: #dee2e6;
   --colour-control-bg-hover: #CACDD1;
   --colour-control-border: #606060;
   --colour-control-text: var(--colour-text);
+  --colour-control-highlight: var(--colour-primary-lighter);
   --colour-scrim: rgba(0,0,0,0.7);
 
-  --border-radius-large: 2rem;
+  --controls-border-radius: 6px;
+  --border-radius-large: 12px;
   --control-border-all: 1px outset var(--colour-control-border);
 
   --drop-shadow-low: 1px 1px 1px rgba(0, 0, 0, .3);

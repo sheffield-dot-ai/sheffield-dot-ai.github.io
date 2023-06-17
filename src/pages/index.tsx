@@ -5,6 +5,7 @@ import robotAndCityImage from "../images/robot-and-city.svg";
 import sheffieldAiTextImage from "../images/text-only.svg";
 import eventBriteLogoImage from "../images/eventbrite-logo.svg";
 import * as classes from "./index.module.css";
+import EmailSignupInlineForm from "../components/forms/EmailSignupInlineForm";
 
 
 const IndexPage: React.FC<PageProps> = () => {
@@ -12,11 +13,12 @@ const IndexPage: React.FC<PageProps> = () => {
     <main className={classes.main} style={{ backgroundImage: `url(${sheffieldLandscapeImage})` }}>
       <section className={classes.banner}>
         <div className={classes.bannerContents}>
-          <h1><img className={classes.textOnly} src={sheffieldAiTextImage} alt="sheffield.ai" /></h1>
+          <img className={classes.textyLogo} src={sheffieldAiTextImage} alt="sheffield.ai" />
           <h2 className={classes.titleText}>Events for humans</h2>
+          <div className={classes.spacer} />
           <p>Sign up for the newsletter to find out about upcoming events and more</p>
-          <div></div>
-          <p>Find us on <a href="#"><img src={eventBriteLogoImage} alt="Eventbrite logo" /></a></p>
+          <EmailSignupInlineForm className={classes.emailForm} />
+          <p>Find us on <a href="#" className={classes.imageLink}><img src={eventBriteLogoImage} alt="Eventbrite logo" /></a></p>
         </div>
         <img className={classes.robotAndCity} src={robotAndCityImage} alt="Image of robot" />
       </section>

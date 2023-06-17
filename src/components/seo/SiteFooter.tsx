@@ -1,9 +1,10 @@
 import React, { } from "react";
 import * as classes from "./SiteFooter.module.css";
+import { ClassableProps, baseClassAnd } from "../../functions/css-helpers";
 
-const SiteFooter: React.FC<{}> = props => {
+const SiteFooter: React.FC<ClassableProps> = props => {
 
-    return  <footer className={classes.footer}>
+    return  <footer className={baseClassAnd(classes.footer, props)}>
     <p>© 2023 WEBSITE</p>
     <a href="/privacy-policy">Privacy Policy</a>
     <a href="/cookie-policy">Cookie Policy</a>

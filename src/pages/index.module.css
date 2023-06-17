@@ -21,17 +21,36 @@
 .banner-contents {
     display: flex;
     flex-direction: column;
-
+    font-size: 1rem;
+    color: var(--colour-text-on-coloured-background);
+    align-items: flex-start;
 }
 
 .title-text {
     font-family: var(--font-family-titles);
     text-transform: uppercase;
+    font-size: 2em;
+    opacity: 0.8;
+    color: var(--colour-primary);
+    margin-top: 0.7em;
+    margin-bottom: 0;
 }
 
+.banner-contents p {
+    margin-top: 0.7em;
+    margin-bottom: 0;
+    font-size: 0.8em;
+}
 
-img.text-only {
+.little-text {
+
+
+}
+
+img.texty-logo {
     height: 3em;
+    display: block;
+    margin-top: 0.7em;
 }
 
 img.robot-and-city {
@@ -42,4 +61,23 @@ img.robot-and-city {
 
     width: 40%;
 
+}
+
+.spacer {
+    display: block;
+    height: 1em;
+}
+
+.image-link {
+
+
+}
+
+.image-link img {
+    height: 1.2em;
+}
+
+.email-form {
+    margin-top: 0.7em;
+    margin-bottom: 1.5em;
 }
