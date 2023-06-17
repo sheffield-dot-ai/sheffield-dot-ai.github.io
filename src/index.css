@@ -1,0 +1,86 @@
+  @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Inter:wght@400;700&display=swap');
+
+:root {
+  font-family: Inter, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+
+  --logo-font: 'Hammersmith One', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --non-zoomable-button-height: 5vh;
+  --non-zoomable-border-width: 0.2vh;
+  --non-zoomable-padding: calc(var(--non-zoomable-border-width) * 2);
+
+  --colour-background-outer: #cfe0e6;
+  
+  /* scheme https://coolors.co/90f1ef-ffd6e0-ffef9f-c1fba4-7bf1a8 */
+  --colour-primary: #009FFD;
+  --colour-secondary: #D53447;
+  --colour-tertiary: #F2CA62;
+  --colour-four: #FFD6E0;
+  --colour-invalid: #FF7094;
+  --colour-invalid-darker: #FF0A47;
+
+  --colour-background: #eeeeee;
+  --colour-background-inset: #fff;
+  
+  --colour-primary-lighter: #58C0FC;
+  --colour-primary-darker: #006BA5;
+
+  --colour-text: #213547;
+  --colour-text-on-dark-background: #ffffff;
+
+  --colour-control-bg: #dee2e6;
+  --colour-control-bg-hover: #CACDD1;
+  --colour-control-border: #606060;
+  --colour-control-text: var(--colour-text);
+  --colour-scrim: rgba(0,0,0,0.7);
+
+  --border-radius-large: 2rem;
+  --control-border-all: 1px outset var(--colour-control-border);
+
+  --drop-shadow-low: 1px 1px 1px rgba(0, 0, 0, .3);
+  --drop-shadow-high: 2px 2px 2px rgba(0, 0, 0, .4);
+
+  --button-height: 36px;
+  
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  background-color: var(--colour-background);
+  margin: 0;
+  color: var(--colour-text);
+}
+
+h1 {
+}
+
+button {
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+}
+button:hover {
+}
+button:focus,
+button:focus-visible {
+}
