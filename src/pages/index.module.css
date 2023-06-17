@@ -1,0 +1,28 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    min-height: 100vh;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    background-color: var(--colour-secondary);
+    box-sizing: border-box;
+    position: relative;
+}
+
+img.robot-and-city {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+
+    width: 40%;
+
+}

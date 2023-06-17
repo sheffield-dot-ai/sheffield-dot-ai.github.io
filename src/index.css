@@ -20,11 +20,13 @@
   --non-zoomable-border-width: 0.2vh;
   --non-zoomable-padding: calc(var(--non-zoomable-border-width) * 2);
 
+  --colour-secondary: #F2BE0D;
+
+
   --colour-background-outer: #cfe0e6;
   
   /* scheme https://coolors.co/90f1ef-ffd6e0-ffef9f-c1fba4-7bf1a8 */
   --colour-primary: #009FFD;
-  --colour-secondary: #D53447;
   --colour-tertiary: #F2CA62;
   --colour-four: #FFD6E0;
   --colour-invalid: #FF7094;

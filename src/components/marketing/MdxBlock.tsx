@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { childClassClosure, baseClassAnd, ClassableProps } from "@jcharlesworthuk/your-mum-core/dist/functions";
 import { MDXProvider } from "@mdx-js/react";
+import { ClassableProps, baseClassAnd } from '../../functions/css-helpers';
 
 const baseClass = 'markdown';
 
