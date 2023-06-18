@@ -4,11 +4,8 @@
   </mj-head>
   <mj-body>
     <mj-section background-color="#f0f0f0">
-      <mj-column>        
-        <mj-text font-size="20px" color="#626262">Sheffield AI Newsletter</mj-text>
-        </mj-column>
       <mj-column>
-        <mj-image width="100px" src="https://sheffield.ai/img/robot-and-city-100.png" />
+        <mj-image src="https://sheffield.ai/img/newsletter-header" alt="Sheffield AI Newsletter" />
       </mj-column>
     </mj-section>
     <mj-section background-url="{{it.blocks[0].image.src}}" background-size="cover" background-repeat="no-repeat">
@@ -111,9 +108,9 @@
     <mj-section>
       <mj-column>
         <mj-social font-size="15px" icon-size="30px" mode="horizontal">
-          <mj-social-element href="https://sheffield.ai"  src="https://sheffield.ai/img/text-only.png">
+          <mj-social-element href="https://sheffield.ai"  src="https://sheffield.ai/img/text-only.png" icon-size="75px">
           </mj-social-element>
-          <mj-social-element href="https://sheffieldai.eventbrite.com" src="https://sheffield.ai/img/eventbrite-logo.png">
+          <mj-social-element href="https://sheffieldai.eventbrite.com" src="https://sheffield.ai/img/eventbrite-logo.png" icon-size="75px">
           </mj-social-element>
         </mj-social>
       </mj-column>
