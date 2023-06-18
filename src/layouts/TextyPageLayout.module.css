@@ -15,6 +15,9 @@
     align-items: center;
     padding-top: 4px;
 }
+.header-contents a {
+    display: block;
+}
 
 .body {
     width: 100%;
@@ -54,8 +57,9 @@
 }
 
 .page-title {
-    font-size: 2em;
-
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: var(--font-family-titles);
 }
 
 .markdown {

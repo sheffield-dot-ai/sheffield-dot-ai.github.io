@@ -6,11 +6,13 @@ import sheffieldAiTextImage from "../images/text-only.svg";
 import eventBriteLogoImage from "../images/eventbrite-logo.svg";
 import * as classes from "./index.module.css";
 import EmailSignupInlineForm from "../components/forms/EmailSignupInlineForm";
+import SiteFooter from "../components/seo/SiteFooter";
 
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <main className={classes.main} style={{ backgroundImage: `url(${sheffieldLandscapeImage})` }}>
+      <header>&nbsp;</header>
       <section className={classes.banner}>
         <div className={classes.bannerContents}>
           <img className={classes.textyLogo} src={sheffieldAiTextImage} alt="sheffield.ai" />
@@ -22,6 +24,7 @@ const IndexPage: React.FC<PageProps> = () => {
         </div>
         <img className={classes.robotAndCity} src={robotAndCityImage} alt="Image of robot" />
       </section>
+      <SiteFooter className={classes.footer} />
 
     </main>
   )

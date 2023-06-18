@@ -15,7 +15,7 @@ const TextyPageLayout: React.FC<LayoutPagePropsAnd<{}>> = (props) => {
   return <main className={classes.main}>
     <header className={classes.header}>
       <div className={[classes.container, classes.headerContents].join(' ')}>
-        <img className={classes.textLogo} src={sheffieldAiTextImage} alt="sheffield.ai" />
+        <Link to={'/'}><img className={classes.textLogo} src={sheffieldAiTextImage} alt="sheffield.ai" /></Link>
         <img className={classes.robotAndCity} src={robotAndCityImage} alt="Image of robot" />
       </div>
     </header>

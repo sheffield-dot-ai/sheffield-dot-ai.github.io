@@ -4,7 +4,7 @@
     background-size: cover;
     min-height: 100vh;
     align-content: center;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -24,6 +24,20 @@
     font-size: 1rem;
     color: var(--colour-text-on-coloured-background);
     align-items: flex-start;
+    margin-left: 20%;
+}
+
+@media (max-width: 900px) {
+    .banner-contents {
+        margin-left: 0.5em;
+        padding-bottom: 20vw;
+    }
+}
+@media (max-width: 400px) {
+    .banner-contents {
+        font-size: 0.7rem;
+    }
+
 }
 
 .title-text {
@@ -35,6 +49,7 @@
     margin-top: 0.7em;
     margin-bottom: 0;
 }
+
 
 .banner-contents p {
     margin-top: 0.7em;
@@ -63,6 +78,25 @@ img.robot-and-city {
 
 }
 
+@media (max-width: 900px) {
+    img.robot-and-city {
+        width: 70%;
+    }
+}
+
+@media (max-width: 600px) {
+    .title-text {
+    font-size: 1.5em;
+
+    }
+
+    img.texty-logo {
+        height: 2.5em;
+
+    }
+}
+
+
 .spacer {
     display: block;
     height: 1em;
@@ -80,4 +114,8 @@ img.robot-and-city {
 .email-form {
     margin-top: 0.7em;
     margin-bottom: 1.5em;
+}
+
+.footer {
+    
 }

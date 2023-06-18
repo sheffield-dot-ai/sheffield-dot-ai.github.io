@@ -5,10 +5,10 @@ import { ClassableProps, baseClassAnd } from "../../functions/css-helpers";
 const SiteFooter: React.FC<ClassableProps> = props => {
 
     return  <footer className={baseClassAnd(classes.footer, props)}>
-    <p>© 2023 WEBSITE</p>
+    <a href="/code-of-conduct">Code of Conduct</a>
     <a href="/privacy-policy">Privacy Policy</a>
-    <a href="/cookie-policy">Cookie Policy</a>
-    <a href="/terms-of-service">Terms Of Service</a>
+    <a href="mailto:organisers@sheffield.ai">Contact</a>
+    <a href="https://github.com/jcharlesworthuk/sheffield.ai">GitHub</a>
   </footer>
 
 }
