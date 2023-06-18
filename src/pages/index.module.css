@@ -37,8 +37,15 @@
     .banner-contents {
         font-size: 0.7rem;
     }
+}
+
+@media (min-width: 1400px) {
+    .banner-contents {
+        font-size: 1.4rem;
+    }
 
 }
+
 
 .title-text {
     font-family: var(--font-family-titles);
