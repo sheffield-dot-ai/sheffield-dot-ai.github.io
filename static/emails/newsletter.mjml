@@ -5,7 +5,7 @@
   <mj-body>
     <mj-section background-color="#f0f0f0">
       <mj-column>
-        <mj-image src="https://sheffield.ai/img/newsletter-header" alt="Sheffield AI Newsletter" />
+        <mj-image src="https://sheffield.ai/img/newsletter-header.png" alt="Sheffield AI Newsletter" />
       </mj-column>
     </mj-section>
     <mj-section background-url="{{it.blocks[0].image.src}}" background-size="cover" background-repeat="no-repeat">
