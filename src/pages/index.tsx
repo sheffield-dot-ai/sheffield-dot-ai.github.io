@@ -20,7 +20,7 @@ const IndexPage: React.FC<PageProps> = () => {
           <div className={classes.spacer} />
           <p>Sign up for the newsletter to find out about upcoming events and more</p>
           <EmailSignupInlineForm className={classes.emailForm} />
-          <p>Find us on <a href="#" className={classes.imageLink}><img src={eventBriteLogoImage} alt="Eventbrite logo" /></a></p>
+          <p>Find us on <a href="https://sheffieldai.eventbrite.com" className={classes.imageLink}><img src={eventBriteLogoImage} alt="Eventbrite logo" /></a></p>
         </div>
         <img className={classes.robotAndCity} src={robotAndCityImage} alt="Image of robot" />
       </section>

@@ -111,17 +111,9 @@
     <mj-section>
       <mj-column>
         <mj-social font-size="15px" icon-size="30px" mode="horizontal">
-          <mj-social-element name="facebook" href="https://mjml.io/">
-            Twitter
+          <mj-social-element href="https://sheffield.ai"  src="https://sheffield.ai/img/text-only.png">
           </mj-social-element>
-          <mj-social-element name="google" href="https://mjml.io/">
-            Meetup
-          </mj-social-element>
-          <mj-social-element name="twitter" href="https://mjml.io/">
-            Eventbrite
-          </mj-social-element>
-          <mj-social-element name="twitter" href="https://mjml.io/">
-            Slack
+          <mj-social-element href="https://sheffieldai.eventbrite.com" src="https://sheffield.ai/img/eventbrite-logo.png">
           </mj-social-element>
         </mj-social>
       </mj-column>
