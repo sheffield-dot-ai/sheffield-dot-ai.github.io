@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Roboto:wght@300;400&display=swap');
+
+:root {
+  /* color-scheme: light dark; */
+
+  /* Colours */
+  --colour-primary-array: 4, 60, 138;
+  --colour-primary: rgb(var(--colour-primary-array));
+  --colour-primary-dark: #042d68;
+  --colour-primary-light: #034aad;
+  --colour-primary-darker: #021f47;
+  --colour-primary-darkest: #015fe3;
+
+
+
+  --colour-secondary: #F2BE0D;
+  --colour-secondary-dark:  #b98e00;
+  --colour-secondary-light: #f3cc4c;
+
+  /* Light mode colours... */
+  --lm-background-color: #cfe0e6;
+  --lm-background-color-inset: #FAFAFA;
+  --lm-background-color-inset-inset: #fefefe;
+  --lm-background-color-forgradient: #eef2fb;
+  --lm-background-color-inset-alt: #ececec;
+  --lm-text-colour: rgba(0, 0, 0, 0.87);
+  --lm-text-colour-weak: rgba(0, 0, 0, 0.6);
+  --lm-text-colour-disabled: rgba(0, 0, 0, 0.38);
+  --lm-divider-colour: rgba(0, 0, 0, 0.12);
+  --lm-colour-action-active: rgba(0, 0, 0, 0.54);
+  --lm-colour-action-hover: rgba(0, 0, 0, 0.04);
+  --lm-colour-action-selected: rgba(0, 0, 0, 0.08);
+  --lm-colour-action-disabled: rgba(2, 0, 0, 0.26);
+  --lm-colour-action-disabledBackground: rgba(0, 0, 0, 0.12);
+  --lm-colour-action-focus: rgba(0, 0, 0, 0.12);
+  --lm-colour-info-main: rgba(0, 0, 0, 0.5);
+  --lm-colour-info-light: rgba(0, 0, 0, 0.3);
+  --lm-colour-info-dark: rgba(0, 0, 0, 0.8);
+
+
+  /* Dark mode colours... */
+  --dm-background-color: #12161a;
+  --dm-background-color-inset: #191C22;
+  --dm-background-color-inset-inset: #242830;
+  --dm-background-color-forgradient: #131523;
+  --dm-background-color-inset-alt: #0e1114;
+  --dm-text-colour: #fff;
+  --dm-text-colour-weak: rgb(148, 166, 184);
+  --dm-text-colour-disabled: rgba(255, 255, 255, 0.5);
+  --dm-divider-colour: rgba(255, 255, 255, 0.12);
+  --dm-colour-action-active: #fff;
+  --dm-colour-action-hover: rgba(255, 255, 255, 0.08);
+  --dm-colour-action-selected: rgba(255, 255, 255, 0.16);
+  --dm-colour-action-disabled: rgba(255, 255, 255, 0.3);
+  --dm-colour-action-disabledBackground: rgba(255, 255, 255, 0.12);
+  --dm-colour-action-focus: rgba(255, 255, 255, 0.12);
+  --dm-colour-info-main: rgba(255, 255, 255, 0.5);
+  --dm-colour-info-light: rgba(255, 255, 255, 0.3);
+  --dm-colour-info-dark: rgba(255, 255, 255, 0.8);
+
+
+
+
+  /* Default (light mode) assignment */
+  --background-color: var(--lm-background-color);
+  --background-color-inset: var(--lm-background-color-inset);
+  --background-color-inset-inset: var(--lm-background-color-inset-inset);
+  --background-color-forgradient: var(--lm-background-color-forgradient);
+  --background-color-inset-alt: var(--lm-background-color-inset-alt);
+  --text-colour: var(--lm-text-colour);
+  --text-colour-weak: var(--lm-text-colour-weak);
+  --text-colour-disabled: var(--lm-text-colour-disabled);
+  --divider-colour: var(--lm-divider-colour);
+  --colour-action-active: var(--lm-colour-action-active);
+  --colour-action-hover: var(--lm-colour-action-hover);
+  --colour-action-selected: var(--lm-colour-action-selected);
+  --colour-action-disabled: var(--lm-colour-action-disabled);
+  --colour-action-disabledBackground: var(--lm-colour-action-disabledBackground);
+  --colour-action-focus: var(--lm-colour-action-focus);
+  --colour-info-main: var(--lm-colour-info-main);
+  --colour-info-light: var(--lm-colour-info-light);
+  --colour-info-dark: var(--lm-colour-info-dark);
+
+
+
+  --background-color-contrast-always-dark: #0e1114;
+
+
+
+
+
+  --text-on-colour-colour: #FFF;
+  --text-on-colour-colour-weak: rgba(255, 255, 255, 0.7);
+
+
+  --control-border-colour: rgba(0, 0, 0, 0.23);
+
+  --colour-error-main: #d32f2f;
+  --colour-error-light: #ef5350;
+  --colour-error-dark: #c62828;
+
+  --colour-success-main: #2e7d32;
+  --colour-success-light: #4caf50;
+  --colour-success-dark: #1b5e20;
+
+
+  /* Fonts */
+  --title-font-family: 'Londrina Solid';
+  --logo-font-family: 'Hammersmith One', sans-serif;
+  --body-font-family: Roboto, Helvetica, Arial, sans-serif;
+
+
+
+
+  /* Sizes */
+  --gutter: 16px;
+  --gutter-x2: calc(var(--gutter) * 2);
+  --gutter-half: calc(var(--gutter) * 0.5);
+  --border-radius-box: 6px;
+  --border-radius-large: 12px;
+  
+
+
+
+  /* These are included in the dark theme but not the light one, adding them here too seems to make it better somehow.. */
+  --mui-overlays-1: linear-gradient(rgba(255 255 255 / 0.05), rgba(255 255 255 / 0.05));
+  --mui-overlays-2: linear-gradient(rgba(255 255 255 / 0.07), rgba(255 255 255 / 0.07));
+  --mui-overlays-3: linear-gradient(rgba(255 255 255 / 0.08), rgba(255 255 255 / 0.08));
+  --mui-overlays-4: linear-gradient(rgba(255 255 255 / 0.09), rgba(255 255 255 / 0.09));
+  --mui-overlays-5: linear-gradient(rgba(255 255 255 / 0.10), rgba(255 255 255 / 0.10));
+
+  /* MUI Variables that aren't set by default... */
+  --mui-palette-AppBar-darkBg: var(--background-color);
+  --mui-palette-AppBar-darkColor: var(--text-colour);
+  --mui-palette-primary-mainChannel: 9 98 252 !important;
+
+
+  /* Transitions etc */
+  --transition-duration: 300ms;
+  --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: var(--dm-background-color);
+    --background-color-inset: var(--dm-background-color-inset);
+    --background-color-inset-inset: var(--dm-background-color-inset-inset);
+    --background-color-forgradient: var(--dm-background-color-forgradient);
+    --background-color-inset-alt: var(--dm-background-color-inset-alt);
+    --text-colour: var(--dm-text-colour);
+    --text-colour-weak: var(--dm-text-colour-weak);
+    --text-colour-disabled: var(--dm-text-colour-disabled);
+    --divider-colour: var(--dm-divider-colour);
+    --colour-action-active: var(--dm-colour-action-active);
+    --colour-action-hover: var(--dm-colour-action-hover);
+    --colour-action-selected: var(--dm-colour-action-selected);
+    --colour-action-disabled: var(--dm-colour-action-disabled);
+    --colour-action-disabledBackground: var(--dm-colour-action-disabledBackground);
+    --colour-action-focus: var(--dm-colour-action-focus);
+    --colour-info-main: var(--dm-colour-info-main);
+    --colour-info-light: var(--dm-colour-info-light);
+    --colour-info-dark: var(--dm-colour-info-dark);
+  }
+}
+
+body.light-mode {
+  --background-color: var(--lm-background-color);
+  --background-color-inset: var(--lm-background-color-inset);
+  --background-color-inset-inset: var(--lm-background-color-inset-inset);
+  --background-color-forgradient: var(--lm-background-color-forgradient);
+  --background-color-inset-alt: var(--lm-background-color-inset-alt);
+  --text-colour: var(--lm-text-colour);
+  --text-colour-weak: var(--lm-text-colour-weak);
+  --text-colour-disabled: var(--lm-text-colour-disabled);
+  --divider-colour: var(--lm-divider-colour);
+  --colour-action-active: var(--lm-colour-action-active);
+  --colour-action-hover: var(--lm-colour-action-hover);
+  --colour-action-selected: var(--lm-colour-action-selected);
+  --colour-action-disabled: var(--lm-colour-action-disabled);
+  --colour-action-disabledBackground: var(--lm-colour-action-disabledBackground);
+  --colour-action-focus: var(--lm-colour-action-focus);
+  --colour-info-main: var(--lm-colour-info-main);
+  --colour-info-light: var(--lm-colour-info-light);
+  --colour-info-dark: var(--lm-colour-info-dark);
+
+}
+
+
+body.dark-mode {
+  --background-color: var(--dm-background-color);
+  --background-color-inset: var(--dm-background-color-inset);
+  --background-color-inset-inset: var(--dm-background-color-inset-inset);
+  --background-color-forgradient: var(--dm-background-color-forgradient);
+  --background-color-inset-alt: var(--dm-background-color-inset-alt);
+  --text-colour: var(--dm-text-colour);
+  --text-colour-weak: var(--dm-text-colour-weak);
+  --text-colour-disabled: var(--dm-text-colour-disabled);
+  --divider-colour: var(--dm-divider-colour);
+  --colour-action-active: var(--dm-colour-action-active);
+  --colour-action-hover: var(--dm-colour-action-hover);
+  --colour-action-selected: var(--dm-colour-action-selected);
+  --colour-action-disabled: var(--dm-colour-action-disabled);
+  --colour-action-disabledBackground: var(--dm-colour-action-disabledBackground);
+  --colour-action-focus: var(--dm-colour-action-focus);
+  --colour-info-main: var(--dm-colour-info-main);
+  --colour-info-light: var(--dm-colour-info-light);
+  --colour-info-dark: var(--dm-colour-info-dark);
+
+}
+
+html {
+  font-size: 16px;
+}
+
+html.small-text {
+  font-size: 13px;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--background-color);
+  /* background: radial-gradient(circle at right bottom, var(--background-color-forgradient), var(--background-color)); */
+  font-family: var(--body-font-family);
+  color: var(--text-colour);
+}
+
+h1,
+h2 {
+  font-family: var(--title-font-family);
+  font-weight: bold;
+}

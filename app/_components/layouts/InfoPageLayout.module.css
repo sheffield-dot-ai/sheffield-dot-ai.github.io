@@ -1,0 +1,33 @@
+.page {
+
+}
+
+.body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('/img/sheffield-landscape.jpg');
+}
+
+
+.panel {
+    background-color: var(--background-color);
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 0 0 var(--border-radius-large) var(--border-radius-large);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;     
+    margin-bottom: 2rem;
+}
+
+.pageTitle {
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: var(--title-font-family);
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

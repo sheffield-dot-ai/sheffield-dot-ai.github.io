@@ -1,0 +1,117 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  min-height: 100vh;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('/img/sheffield-landscape.jpg');
+}
+
+.banner {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  background-color: var(--colour-secondary);
+  box-sizing: border-box;
+  position: relative;
+}
+
+.bannerContents {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  color: var(--lm-text-colour);
+  align-items: flex-start;
+  margin-left: 20%;
+}
+
+@media (max-width: 900px) {
+  .bannerContents {
+    margin-left: 0.5em;
+    padding-bottom: 20vw;
+  }
+}
+@media (max-width: 400px) {
+  .bannerContents {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .bannerContents {
+    font-size: 1.4rem;
+  }
+}
+
+.titleText {
+  font-family: var(--title-font-family);
+  text-transform: uppercase;
+  font-size: 2em;
+  opacity: 0.8;
+  color: var(--colour-primary);
+  margin-top: 0.7em;
+  margin-bottom: 0;
+}
+
+.bannerContents p {
+  margin-top: 0.7em;
+  margin-bottom: 0;
+  font-size: 0.8em;
+}
+
+.littleText {}
+
+img.textyLogo {
+  height: 3em;
+  display: block;
+  margin-top: 0.7em;
+}
+
+img.robotAndCity {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -2px;
+  width: 40%;
+}
+
+@media (max-width: 900px) {
+  img.robotAndCity {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  .titleText {
+    font-size: 1.5em;
+  }
+
+  img.textyLogo {
+    height: 2.5em;
+  }
+}
+
+.spacer {
+  display: block;
+  height: 1em;
+}
+
+.imageLink {}
+
+.imageLink img {
+  height: 1.2em;
+}
+
+.emailForm {
+  margin-top: 0.7em;
+  margin-bottom: 1.5em;
+}
+
+.emailForm input[type="email"] {
+  background-color: var(--lm-background-color);
+
+}
+
+.footer {}

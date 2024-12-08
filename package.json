@@ -1,37 +1,28 @@
 {
   "name": "sheffield.ai",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
-  "description": "sheffield.ai",
-  "author": "James Charlesworth",
-  "keywords": [
-    "gatsby"
-  ],
   "scripts": {
-    "start": "gatsby develop --port 5321",
-    "deploy": "gatsby build && gh-pages -d public",
-    "deploy:ci": "gatsby build && gh-pages -d public -r https://$GH_TOKEN@github.com/jcharlesworthuk/sheffield.ai.git",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "typecheck": "tsc --noEmit"
+    "dev": "next dev",
+    "build": "next build"
   },
   "dependencies": {
-    "gatsby": "^5.11.0",
-    "gatsby-plugin-mdx": "^5.11.0",
-    "gatsby-plugin-robots-txt": "^1.8.0",
-    "gatsby-plugin-sitemap": "^6.11.0",
-    "gatsby-source-filesystem": "^5.11.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "@mdx-js/loader": "^3.1.0",
+    "@mdx-js/react": "^3.1.0",
+    "@next/mdx": "^15.0.4",
+    "@types/mdx": "^2.0.13",
+    "next": "15.0.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remark-frontmatter": "^5.0.0",
+    "remark-gfm": "^4.0.0",
+    "remark-mdx-frontmatter": "^5.0.0",
+    "schema-dts": "^1.1.2"
   },
   "devDependencies": {
-    "@types/node": "^20.2.6",
-    "@types/react": "^18.2.9",
-    "@types/react-dom": "^18.2.4",
-    "gh-pages": "^5.0.0",
-    "reading-time": "^1.5.0",
-    "typescript": "^5.1.3",
-    "typescript-plugin-css-modules": "^5.0.1"
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
   }
 }

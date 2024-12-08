@@ -1,0 +1,23 @@
+.header {
+    background-color: var(--colour-secondary);
+    width: 100%;
+}
+
+.headerContents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4px;
+}
+.headerContents a {
+    display: block;
+}
+
+img.textLogo {
+    height: 2em;
+}
+
+img.robotAndCity {
+    height: 6em;
+}
