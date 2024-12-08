@@ -28,11 +28,15 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Debug out folder
+        run: find out -type l || echo "No symlinks found"
+
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: out-folder
           path: out
+          if-no-files-found: error
 
   deploy:
     runs-on: ubuntu-latest
