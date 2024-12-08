@@ -1,0 +1,31 @@
+.main {
+    background-color: var(--colour-secondary);
+    color: #222;
+}
+
+.title1, .title2, .title3 {
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    padding: 2rem 2rem;
+    padding-left: 10vw;
+}
+
+.title1 {
+    font-style: italic;
+    font-size: 4rem;
+    padding-bottom: 0;
+}
+
+.title2 {
+    font-size: 8rem;
+    background-color: var(--colour-secondary-dark);
+}
+
+.title3 {
+    font-size: 4rem;
+    background-color: var(--colour-secondary-light);
+    padding-top: 0;
+
+}
