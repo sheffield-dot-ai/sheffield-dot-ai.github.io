@@ -1,0 +1,45 @@
+.container {
+    font-family: var(--cursive-font-family);
+    font-size: 2em;
+    font-weight: bold;
+    background-color: var(--lm-background-color);
+    padding: 1em 0 0.5em 0;
+}
+
+.title {
+    margin: 0;
+    padding-left: 1em;
+    line-height: 1;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list li {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    border-top: 1px solid var(--colour-logo-turquoise);
+    padding-bottom: 0;
+    line-height: 1;
+    white-space: nowrap;
+}
+.list li:last-of-type {
+    border-bottom: 1px solid var(--colour-logo-turquoise);
+}
+.list li:before {
+    content: '☐ ';
+}
+
+.underline {
+    display: block;
+    padding-left: 1em;
+
+}
+
+.underline path {
+    fill: none;
+    stroke-width: 5;
+  }

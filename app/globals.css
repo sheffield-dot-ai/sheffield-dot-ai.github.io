@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Roboto:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light&display=swap');
 
 :root {
   /* color-scheme: light dark; */
+
+  --colour-logo-turquoise: #67A599;
 
   /* Colours */
   --colour-primary-array: 4, 60, 138;
@@ -15,11 +17,11 @@
 
 
   --colour-secondary: #F2BE0D;
-  --colour-secondary-dark:  #eaac00;
+  --colour-secondary-dark: #eaac00;
   --colour-secondary-light: #f4c631;
 
   /* Light mode colours... */
-  --lm-background-color: #cfe0e6;
+  --lm-background-color: #ECECD2;
   --lm-background-color-inset: #FAFAFA;
   --lm-background-color-inset-inset: #fefefe;
   --lm-background-color-forgradient: #eef2fb;
@@ -109,7 +111,7 @@
   --title-font-family: 'Londrina Solid';
   --logo-font-family: 'Hammersmith One', sans-serif;
   --body-font-family: Roboto, Helvetica, Arial, sans-serif;
-
+  --cursive-font-family: "Shadows Into Light", cursive;
 
 
 
@@ -119,7 +121,7 @@
   --gutter-half: calc(var(--gutter) * 0.5);
   --border-radius-box: 6px;
   --border-radius-large: 12px;
-  
+
 
 
 
