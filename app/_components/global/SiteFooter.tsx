@@ -1,9 +1,9 @@
 import React, { } from "react";
-import classes from "./SiteFooter.module.css";
+import styles from "./SiteFooter.module.css";
 
 const SiteFooter: React.FC<{ className?: string}> = props => {
 
-    return  <footer className={[classes.footer, props.className ?? ''].join(' ')}>
+    return  <footer className={[styles.footer, props.className ?? ''].join(' ')}>
     <a href="/code-of-conduct">Code of Conduct</a>
     <a href="/privacy-policy">Privacy Policy</a>
     <a href="https://airtable.com/appiHE0vPIwWr3L9S/shrq6dxWMNTy2Kimy">Contact</a>
