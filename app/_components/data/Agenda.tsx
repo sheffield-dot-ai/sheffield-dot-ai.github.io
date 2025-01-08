@@ -26,7 +26,7 @@ export const AgendaTimeSlot: React.FC<React.PropsWithChildren<{
         <div className={styles.timeSlotTopBar}>
             <time dateTime={props.timeString}>{props.timeString}</time>
             <h4>{props.title}</h4>
-            <span>{props.location}</span>
+            <span className={styles.venue}>{props.location}</span>
         </div>
         <div className={styles.timeSlotDetail}>
             {props.children}
