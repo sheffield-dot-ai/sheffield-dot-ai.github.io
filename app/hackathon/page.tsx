@@ -7,14 +7,14 @@ export default function IndexPage() {
   return <main className={styles.main}>
     <h2 className={styles.title1}>Sheffield</h2>
     <h1 className={styles.title2}>AI • Hackathon</h1>
-    <h3 className={styles.title3}>May 2025
+    <h3 className={styles.title3}>13-14 May 2025
       <img src="/img/robot-and-city.svg" className={styles.robotImage} />
     </h3>
     <section className={[styles.container, styles.contrastBlock].join(' ')}>
       <div className={styles.flexRow}>
         <div className={styles.todoListWrapper}>
           <TodoList className={styles.todoList} title="Hackathon 2025">
-            <li>Save the date (TBC)</li>
+            <li>Save the date: 13-14 May</li>
             <li>Read the rules</li>
             <li>Join a team</li>
             <li>Build a project</li>
