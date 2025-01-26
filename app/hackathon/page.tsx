@@ -24,7 +24,7 @@ export default function IndexPage() {
         </div>
         <div>
           <h2>Calling AI Makers</h2>
-          <p>Sheffield AI are running a FREE AI based hackathon in May 2025.  Entries are open to anybody in the region who wants to get hands on and build something with AI.  More details to follow closer to the time.</p>
+          <p>Sheffield AI are running a FREE AI based hackathon in May 2025.  Entries are open to anybody in the region who wants to get hands on and build something with AI.  Click the link to fill in the signup form.</p>
           <div className={styles.ctaWrapper}><CtaLinkButton href="https://docs.google.com/forms/d/e/1FAIpQLSeR_wUW5cbbFISDmmrrmO148jRwRXaSX5cbZNiz-nadmMOMKg/viewform?usp=sharing" className={styles.cta}>Sign Up Here</CtaLinkButton></div>
         </div>
       </div>
