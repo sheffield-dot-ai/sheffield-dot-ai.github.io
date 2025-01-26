@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from "react";
 import styles from "./EmailSignupInlineForm.module.css";
+import CtaButton from "./CtaButton";
 
 const EmailSignupInlineForm: React.FC<{ className?: string }> = props => {
     const [value, setValue] = useState('');
@@ -19,7 +20,7 @@ const EmailSignupInlineForm: React.FC<{ className?: string }> = props => {
         <input type="hidden" name="locale" value="en" />
         <input type="hidden" value="1" id="OPT_IN" name="OPT_IN" readOnly={true} />
         <input type="hidden" name="html_type" value="simple" />
-        <button type="submit" className={styles.button}>Sign Up</button>
+        <CtaButton type="submit" className={styles.button}>Sign Up</CtaButton>
     </form>
 }
 

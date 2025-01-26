@@ -30,20 +30,8 @@
 }
 
 
-
-
-.button {
-    padding: 0 1em;
-    line-height: 2.5;
-    border-width: 0;
+.cta {
     border-radius: 0 var(--border-radius-box) var(--border-radius-box) 0;
-    background-color: var(--colour-primary);
-    color: var(--text-on-colour-colour);
-    cursor: pointer;
-}
-
-.button:hover {
-    background-color: var(--colour-primary-light);
 }
 
 .inputHidden {

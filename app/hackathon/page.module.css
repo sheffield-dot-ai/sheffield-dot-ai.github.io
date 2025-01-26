@@ -6,6 +6,15 @@
 
 }
 
+.main a:not([class]) {
+    color: var(--colour-primary);
+}
+
+.main a:not([class]):hover {
+    color: var(--colour-primary-light);
+}
+
+
 .main h2:not([class]),
 .main h3:not([class]) {
     font-family: var(--hackathon-font);
@@ -192,3 +201,72 @@
 
 }
 
+.ctaWrapper {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.cta {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.howItWorks {
+
+}
+
+.howItWorks li {
+    font-size: 1.2rem;
+    font-family: var(--hackathon-font);
+    margin-top: 0.5em;
+}
+
+.theData {
+
+}
+
+.dataLinks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.dataLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    color: rgba(0, 0, 0, 0.75);
+    text-decoration: none;
+}
+
+.dataLinks a:hover {
+    color: var(--colour-primary);   
+    text-decoration: underline;
+}
+
+.dataLinks a svg {
+    width: 5rem;
+}
+
+.sectionTitle {
+    margin-top: 4rem;
+    font-family: var(--hackathon-font);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+@media (max-width: 700px) {
+    .sectionTitle  {
+        margin-top: 2rem;
+    }
+
+}
+
+.footer a:not([class]) {
+    color: var(--text-on-colour-colour);
+}
