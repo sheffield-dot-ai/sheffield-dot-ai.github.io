@@ -115,6 +115,7 @@ export default function IndexPage() {
     </section>
     <section className={[styles.container, styles.agenda].join(' ')}>
       <h2 className={styles.sectionTitle}>Hackathon Agenda</h2>
+      <h3 className={styles.sectionTitle}>Day 1 Location: <a href="https://maps.app.goo.gl/122YWaXvAwgTE8DJ6">Pennine Five, Sheffield S1 2DD</a></h3>
       <Agenda>
         <AgendaDay dayString="Tuesday" dateString="13th May 2025">
           <AgendaTimeSlot title="Breakfast & Coffee" location="Main Room" timeString="9:00 AM - 9:30 AM">
