@@ -144,13 +144,13 @@ export default function IndexPage() {
           <AgendaTimeSlot title="Submission Deadline" location="Remote" timeString="4:00 PM - 4:00 PM">
             Deadline for submission of your project.  You can submit code, a deployed application, or just slides.  This is to give the judges time to prepare for the event presentations
           </AgendaTimeSlot>
-          <AgendaTimeSlot title="Evening Reception" location="Cafe" timeString="6:00 PM - 6:30 PM">
+          <AgendaTimeSlot title="Evening Reception" location="Sheffield Plate" timeString="6:00 PM - 6:30 PM">
             Rejoin your teams on Wednesday evening for the presentations
           </AgendaTimeSlot>
-          <AgendaTimeSlot title="Presentations" location="Cafe" timeString="6:00 AM - 11:00 AM">
+          <AgendaTimeSlot title="Presentations" location="Sheffield Plate" timeString="6:00 AM - 11:00 AM">
             Teams will join the stage one by one and present their progress during the Hackathon! Time limit 5 minutes per presentation.
           </AgendaTimeSlot>
-          <AgendaTimeSlot title="Prize Ceremony" location="Cafe" timeString="8:00 PM - 9:00 PM">
+          <AgendaTimeSlot title="Prize Ceremony" location="Sheffield Plate" timeString="8:00 PM - 9:00 PM">
             Winners announced and prizes handed out.  Grab your camera and don't forget your a bag to carry your trophy home in!
           </AgendaTimeSlot>
         </AgendaDay>
